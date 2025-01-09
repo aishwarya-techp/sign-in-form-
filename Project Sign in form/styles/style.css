@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family : Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    background-color: #c1c5cf;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding : 50px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    /* overflow:auto; */
+}
+
+.author {
+    color: #eda9f0;
+}
+
+form{
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+.left-section {
+    flex: 1;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.left-section .logo-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /* z-index: 1; */
+}
+
+.right-section {
+    flex: 1.5;
+    padding: 40px;
+}
+
+.intro-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom :15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:valid{
+    border: 1px solid green;
+}
+
+input:invalid{
+    border:1px solid red;
+}
+
+input:focus {
+    border: 2px solid #3b82f6;
+    box-shadow: 0 0 8px rgba(59,130,246,0.6);
+    outline: none;
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #4caf50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+  }
+  
+  .login-text {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .login-text a {
+    color: #596D48;
+    text-decoration: none;
+  }
+
+  .login-text a:hover {
+  text-decoration: underline;
+}
+
+.image-credit {
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+}
+
+.image-credit a {
+    color : rgba (255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.image-credit a:hover {
+    text-decoration: underline;
+}
+
+/* .logo-text {
+   
+    color: white;
+    font-size: 48px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: inline-block;
+    
+    border-radius: 5px;
+    width: 80%;
+} */
+/* #logo-img{
+    height: 20px;
+    width: 30px;
+} */
+
+.logo {
+    margin-top: 180px;
+}
+
+#logo-img{
+    
+    background-color: rgba(0, 0, 0, 0.689);
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    width: 100%;
+    padding: 3vh;
+}
+#logo-img>img{
+    width:8vw;
+    height: 5vw;
+}
+.logo-text{
+    color: white;
+    /* padding: 10px 20px; */
+    position: relative;
+    right: 20px;
+    top: 300px;
+    text-align: center;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    margin-top: 179px;
+}
+img{
+    width: 10vw;
+    height: 10vh;
+}
+/* Form Fields Layout */
+.form-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 20px; /* Space between columns */
+    margin: 20px 0;
+  }
+  
+  /* Left and Right Columns */
+  .form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between fields */
+  }
+  
+  /* Labels */
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Inputs */
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+  }
+  
+  /* Ensure the Form Container Stays Centered */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    max-width: 700px;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
+
+
+  
